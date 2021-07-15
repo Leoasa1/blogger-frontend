@@ -1,0 +1,19 @@
+.searchBar {
+    border-radius: 25px;
+    border-right-style: none;
+}
+
+.primary {
+    background-color: #26FFDF;
+    color: black;   
+    border-color: #26FFDF;
+    outline: none;
+}
+
+.primary:hover {
+    background-color: #26FFDF;
+    border-color: #26FFDF;
+    color: black;
+}
+
+

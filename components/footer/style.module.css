@@ -1,0 +1,23 @@
+.footer {
+    background-color: rgba(236, 236, 236, 0.37);
+    padding: 20px 0;
+    color: black;
+}
+
+.footer h1 {
+    color: black;
+}
+
+.footer p {
+    color: black;
+}
+
+.segment {
+    padding: 50px;
+    color: black;
+}
+
+.segment a {
+    cursor: pointer;
+    color: black;
+}
