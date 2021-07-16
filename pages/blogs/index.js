@@ -1,11 +1,11 @@
-import Layout from '@/components/Layout'
+// import Layout from '@/components/Layout'
 
-export default function index() {
-    return (
-        <Layout>
-            <div>
+// export default function index() {
+//     return (
+//         <Layout>
+//             <div>
                 
-            </div>
-        </Layout>
-    )
-}
+//             </div>
+//         </Layout>
+//     )
+// }

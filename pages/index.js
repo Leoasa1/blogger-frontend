@@ -1,17 +1,19 @@
-import Link from 'next/link'
 import Layout from '../components/Layout'
 import { API_URL } from '@/config/index'
-// import BlogItem from '@/components/BlogItem'
+import BlogItem from '@/components/blogItem/Blogitem'
 
 export default function Home({ blogs }) {
 
     return (
         <Layout>
-            {blogs.length === 0 && <h3>No blogs to show</h3>}
-
-            {blogs.map((blg) => (
-                <h3 key={blg.id}>{blg.name}</h3>
-            ))}
+            <div className="container">
+                {blogs.length === 0 && <h3>No blogs to show</h3>}
+                <div className="row">
+                    {blogs.map((blg) => (
+                        <BlogItem key={blg.id} blg={blg}/>
+                    ))}
+                </div>
+            </div>
         </Layout>
     )
 }

@@ -14,7 +14,7 @@ export default function Layout({title, description, keywords, children}) {
                 <meta name='description' content={description} />
                 <meta name='keywords' content={keywords} />
             </Head>
-            <div className="container-sm">
+            <div className="container">
                 <Header/>
 
                 {children}
