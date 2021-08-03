@@ -6,7 +6,7 @@ export default function footer() {
         <footer className={Style.footer}>
             <div className="container">
                 <div className="row">
-                    <div className={`col ${Style.segment}`}>
+                    <div className={`col ${Style.segment} `}>
                         <h1>Blogger</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, rem?</p>
                         <a href="#" className="mr-2">

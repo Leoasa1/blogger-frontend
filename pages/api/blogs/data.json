@@ -4,7 +4,9 @@
       "id": "1",
       "name": "Throwback Thursdays with DJ Manny Duke",
       "slug": "throwback-thursdays-with-dj-manny-duke",
-      "title": "Horizon Club csd vdfbvdb vrdgs qwdadac gtdg aedew efs fr",
+      "author": "Leo Asadourian",
+      "title": "Horizon Club csd vdfbvdb vrdgs solve the issue of “ReferenceError: legacyLib is not defined frsgs thd hyj hi my name",
+      "subTitle": "It was Saturday night hanging around",
       "text": "It was Saturday night hanging around to solve the issue of “ReferenceError: legacyLib is not defined” in my React+Typescript app. I was sure that this error was about my “legacyLib.js” lib file, which included thousands of lines of code coded as IIFE, which wasn’t bundled by webpack by default.",
       "date": "June 09, 2021",
       "time": "10:00 PM EST",
@@ -15,19 +17,23 @@
       "id": "2",
       "name": "Boom Dance Festival Experience",
       "slug": "boom-dance-festival-experience",
+      "author": "Colin Asadourian",
       "title": "Blackjacks",
-      "performers": "DJ LUCK & MC NEAT, NICKY BLACKMARKET, DJ NICKY BLACKMARKET, RATPACK",
+      "subTitle": "It's looking more and more like we",
+      "text": "test one two three",
       "date": "June 2, 2021",
       "time": "8:00 PM EST",
       "description": "It's looking more and more like we will be seeing events return in the summer! To celebrate this we are arranging a festival experience to say good bye to lock down! We will also be celebrating the fact Zoom Dance is one year old!",
-      "image": "/images/sample/event2.jpg"
+      "image": "/images/sample/city.jpg"
     },
     {
       "id": "3",
       "name": "Boom Dance Festival Experiences",
       "slug": "boom-dance-festival-experiences",
+      "author": "Bach Obliquian",
       "title": "slash hash",
-      "performers": "DJ LUCK & MC NEAT, NICKY BLACKMARKET, DJ NICKY BLACKMARKET, RATPACK",
+      "subTitle": "DJ LUCK & MC NEAT, NICKY BLACKMARKET, DJ NICKY",
+      "text": "test one two three",
       "date": "June 2, 2021",
       "time": "8:00 PM EST",
       "description": "It's looking more and more like we will be seeing events return in the summer! To celebrate this we are arranging a festival experience to say good bye to lock down! We will also be celebrating the fact Zoom Dance is one year old!",
@@ -35,14 +41,16 @@
     },
     {
       "id": "4",
-      "name": "Boom Dance Festival Experiences",
-      "slug": "boom-dance-festival-experiences",
-      "title": "bluejacks",
-      "performers": "DJ LUCK & MC NEAT, NICKY BLACKMARKET, DJ NICKY BLACKMARKET, RATPACK",
+      "name": "DJ NICKY BLACKMARKET, RATPACK",
+      "slug": "dj-nicky-blackmarket-ratpack",
+      "author": "John Doe",
+      "title": "Blue Jacks M1 Development",
+      "subTitle": "DJ LUCK & MC NEAT, NICKY BLACKMARKET, DJ NICKY",
+      "text": "test one two three",
       "date": "June 2, 2021",
       "time": "8:00 PM EST",
       "description": "It's looking more and more like we will be seeing events return in the summer! To celebrate this we are arranging a festival experience to say good bye to lock down! We will also be celebrating the fact Zoom Dance is one year old!",
-      "image": ""
+      "image": "/images/sample/event4.jpg"
     }
   ]
 }

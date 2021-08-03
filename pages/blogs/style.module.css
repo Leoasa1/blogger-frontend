@@ -1,0 +1,9 @@
+@media (max-width: 992px) {
+  .socialTab {
+    margin-top: 20px;
+  }
+}
+
+.hideTab {
+  display: none;
+}

@@ -1,9 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+@font-face {
+  font-family: "libre-baskerville";
+  src: url("../public/font/libre-baskerville/LibreBaskerville-Regular.ttf")
+    format("ttf");
+}
+
+@font-face {
+  font-family: "libre-baskerville";
+  src: url("../public/font/libre-baskerville/LibreBaskerville-Bold.ttf")
+    format("ttf");
+  font-weight: bold;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "libre-baskerville";
 }
 
 a {
@@ -11,6 +24,62 @@ a {
   text-decoration: none;
 }
 
+a:hover,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.font-robo {
+  font-family: "Roboto", sans-serif;
+}
+
+.editor {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.ql-toolbar.ql-snow {
+  border: none;
+}
+
+.ql-container.ql-snow {
+  border: none;
+  height: 100vh;
+}
+
+.btn-primary {
+  background-color: #26ffdf;
+  color: black;
+  border-color: #26ffdf;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  color: #ffffff !important;
+  background-color: #1f2838 !important;
+  border-color: #494f57 !important;
+}
+
+.date {
+  color: rgb(150, 150, 150);
+}
+
+.my-dropdown-toggle::after {
+  content: none;
+}
+
+#nprogress .bar {
+  background: #00ebc8;
+  height: 5px;
+}
+
+#nprogress .spinner-icon {
+  border-top-color: #00ebc8;
+  border-left-color: #00ebc8;
 }

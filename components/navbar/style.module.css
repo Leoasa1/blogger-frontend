@@ -4,16 +4,14 @@
 }
 
 .primary {
-    background-color: #26FFDF;
-    color: black;   
-    border-color: #26FFDF;
+    background-color: #26ffdf;
+    color: black;
+    border-color: #26ffdf;
     outline: none;
 }
 
 .primary:hover {
-    background-color: #26FFDF;
-    border-color: #26FFDF;
+    background-color: #26ffdf;
+    border-color: #26ffdf;
     color: black;
 }
-
-
